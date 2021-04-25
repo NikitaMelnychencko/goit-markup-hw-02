@@ -1,0 +1,112 @@
+/* Цвет основного текста #757575 */
+/* Вторичный цвет текста #212121 */
+/* Вторичный цвет футера текста #FFFFFF*/
+/* Цвет логотипа  #2196F3 ,#000000*/
+/* Акцент #2196F3 */
+/* Основной цвет фона #757575 */
+/* Вторичный цвет фона #F5F4FA */
+/* Цвет фона банер и футер #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --tiile-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/*Header*/
+/*Logo*/
+.logo-partone {
+  color: var(--accent-color);
+}
+.logo-parttwo {
+  color: #000000;
+}
+.logo-partone:focus,
+.logo-parttwo:focus {
+  color: var(--accent-color);
+}
+
+/*Site nav*/
+.site-nav .link {
+  color: var(--tiile-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/*contact*/
+.contact-header .link,
+.contact-footer .link {
+  color: var(--primary-text-color);
+}
+.contact-header .link:hover,
+.contact-header .link:focus {
+  color: var(--accent-color);
+}
+/*Main*/
+.banner-title {
+  color: var(--primary-background-color);
+}
+.banner {
+  background-color: var(--secondary-background-color);
+}
+
+.section-title {
+  color: var(--tiile-text-color);
+}
+/*particular qualities*/
+.qualities-list .title {
+  color: var(--tiile-text-color);
+}
+
+/*Team*/
+.section-team {
+  background-color: #f5f4fa;
+}
+.team-list .title {
+  color: var(--tiile-text-color);
+}
+
+/*buttun*/
+.buttun {
+  cursor: pointer;
+}
+.buttun.primary {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+.buttun.secondary {
+  color: var(--tiile-text-color);
+  background-color: #f5f4fa;
+}
+.buttun.secondary:hover,
+.buttun.secondary:focus {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+}
+
+/*Portfolio*/
+.portfolio-list .title {
+  color: var(--tiile-text-color);
+}
+
+/*footer*/
+.address {
+  background-color: var(--secondary-background-color);
+}
+.location {
+  color: var(--primary-background-color);
+}
