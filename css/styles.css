@@ -13,6 +13,8 @@
   --accent-color: #2196f3;
   --primary-background-color: #ffffff;
   --secondary-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+  --logo-color: #000000;
 }
 
 body {
@@ -29,7 +31,7 @@ ul {
   color: var(--accent-color);
 }
 .logo-parttwo {
-  color: #000000;
+  color: var(--logo-color);
 }
 .logo-partone:focus,
 .logo-parttwo:focus {
@@ -74,7 +76,7 @@ ul {
 
 /*Team*/
 .section-team {
-  background-color: #f5f4fa;
+  background-color: var(--third-background-color);
 }
 .team-list .title {
   color: var(--tiile-text-color);
@@ -90,7 +92,7 @@ ul {
 }
 .buttun.secondary {
   color: var(--tiile-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--third-background-color);
 }
 .buttun.secondary:hover,
 .buttun.secondary:focus {
